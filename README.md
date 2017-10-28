@@ -1,7 +1,7 @@
-#Speech Recognition
+# Speech Recognition
 A python code for detecting face and recognising speech and working appropriately. It is like a virtual assistant(Jarvis ;P).
 
-##Prerequisites
+## Prerequisites
 ```
 	speech_recognition
 	pyttsx3
@@ -10,7 +10,7 @@ A python code for detecting face and recognising speech and working appropriatel
 	cv2
 	numpy
 ```
-##Procedure
+## Procedure
 There is no big procedure to get your hands on, just clone the repository and use it!
-##Contribution
+## Contribution
 Feel free to add any other functionalities which you feel necessary and good.
