@@ -8,16 +8,22 @@ import numpy as np
 speech_engine = pyttsx3.init() # see http://pyttsx.readthedocs.org/en/latest/engine.html#pyttsx.init
 speech_engine.setProperty('rate', 150)
 
+#Speaking
+
 def speak(text):
 	speech_engine.say(text)
 	speech_engine.runAndWait()
 
 recognizer = speech_recognition.Recognizer()
 
+#Calender
+
 def calendar():
 	b=os.system("espeak 'Here your calendar'")
 	
 	c=os.system("cal")
+
+#Face Detection
 
 def face():
 
@@ -62,7 +68,9 @@ def shutdown():
 def search(q):
 
 	os.system("firefox http://www.google.com/search?q=%s" %q)
-		
+
+#Listens to the user
+
 def listen():
 	with speech_recognition.Microphone() as source:
 		recognizer.adjust_for_ambient_noise(source)
